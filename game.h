@@ -4,8 +4,6 @@
 */
 
 
-
-
 #include<stdio.h>
 #include<stdlib.h>
 #include<linux/input.h>
@@ -29,6 +27,7 @@ int initialize()
 	//closegraph();
 	return 0;
 }
+
 Top_go()
 {
 	closegraph();
@@ -49,6 +48,7 @@ Top_go()
 	//closegraph();
 	return 0;
 }
+
 Down_go()
 {
 	closegraph();
@@ -68,6 +68,7 @@ Down_go()
 	//closegraph();
 	return 0;	
 }
+
 Right_go()
 {
 	closegraph();
