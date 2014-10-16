@@ -26,8 +26,10 @@ int main()
 	}
 	
 	initialize();
+	
 	time(&t);
 	diff = 0.0;
+	
 	while(diff < 10)										//Time Out
 	{
 		n = read(fd, &ev, sizeof(ev));
