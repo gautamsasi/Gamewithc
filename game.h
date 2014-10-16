@@ -32,7 +32,7 @@ Top_go()
 {
 	closegraph();
 	int gd = DETECT, gm;
-	initgraph(&gd, &gm, NULL);
+	initgraph(&gd, &gm, NULL);						//Changing the position of the ball
 	y-=50.0f;
 
 	if(x < 10.0f || y < 10.0f || x > 600.0f || y > 480.0f)
@@ -54,7 +54,7 @@ Down_go()
 	closegraph();
 	int gd = DETECT, gm;
 	initgraph(&gd, &gm, NULL);
-	y+=50.0f;
+	y+=50.0f;								//Changing the position of the ball
 
 	if(x < 10.0f || y < 10.0f || x > 600.0f || y > 480.0f)
 	{
@@ -74,7 +74,7 @@ Right_go()
 	closegraph();
 	int gd = DETECT, gm;
 	initgraph(&gd, &gm, NULL);
-	x+=50.0f;
+	x+=50.0f;								//Changing the position of the ball
 
 	if(x < 10.0f || y < 10.0f || x > 600.0f || y > 480.0f)
 	{
@@ -94,7 +94,7 @@ Left_go()
 	closegraph();
 	int gd = DETECT, gm;
 	initgraph(&gd, &gm, NULL);
-	x-=50.0f;
+	x-=50.0f;								//Changing the position of the ball
 
 	if(x < 10.0f || y < 10.0f || x > 600.0f || y > 480.0f)
 	{
